@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E73240B41C45EB3400AF5D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E73240B31C45EB3400AF5D22 /* main.m */; };
 		E73240BC1C45EBDC00AF5D22 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E73240BB1C45EBDC00AF5D22 /* XYZPerson.m */; };
+		E73240BF1C45FD2900AF5D22 /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E73240BE1C45FD2900AF5D22 /* XYZShoutingPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		E73240B31C45EB3400AF5D22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E73240BA1C45EBDC00AF5D22 /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
 		E73240BB1C45EBDC00AF5D22 /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		E73240BD1C45FD2900AF5D22 /* XYZShoutingPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
+		E73240BE1C45FD2900AF5D22 /* XYZShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				E73240B31C45EB3400AF5D22 /* main.m */,
 				E73240BA1C45EBDC00AF5D22 /* XYZPerson.h */,
 				E73240BB1C45EBDC00AF5D22 /* XYZPerson.m */,
+				E73240BD1C45FD2900AF5D22 /* XYZShoutingPerson.h */,
+				E73240BE1C45FD2900AF5D22 /* XYZShoutingPerson.m */,
 			);
 			path = "ProgrammingWithObjective-C";
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E73240BC1C45EBDC00AF5D22 /* XYZPerson.m in Sources */,
+				E73240BF1C45FD2900AF5D22 /* XYZShoutingPerson.m in Sources */,
 				E73240B41C45EB3400AF5D22 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@
 @implementation XYZPerson
 
 - (void) sayHello {
-    NSLog(@"wocao");
+    NSLog(@"from XYZPerson");
 }
 
 - (void) sayHello:(NSString *)params {
@@ -20,5 +20,9 @@
 
 - (void) sayHello:(NSString *)param1 two:(NSString *)param2 {
      NSLog(@"%@,,,,%@",param1,  param2);
+}
+
++ (XYZPerson *) person {
+    return [self new];
 }
 @end
