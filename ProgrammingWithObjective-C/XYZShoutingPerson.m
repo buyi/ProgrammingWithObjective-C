@@ -13,4 +13,15 @@
     NSLog(@"%@", @"from XYZShoutingPerson");
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.firstName = @"XYZShoutingPerson.h init bu";
+        self.lastName = @"XYZShoutingPerson.h init yi";
+        self.birthDay = [NSDate new];
+    }
+    return self;
+}
+
 @end

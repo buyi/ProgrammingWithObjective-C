@@ -10,9 +10,15 @@
 
 @interface XYZPerson : NSObject
 
-@property NSString* firstName;
+//copy 是持有设置到这个属性值的拷贝
+@property (copy) NSString* firstName;
 @property NSString* lastName;
 @property NSDate* birthDay;
+
+@property (readonly) NSString* height;
+@property (readonly) NSString* weight;
+
+- (instancetype)initWithFirstName:(NSString *)firstName lastName:(NSString *) lastName birth:(NSDate*) date;
 
 - (void)sayHello;
 
@@ -28,4 +34,20 @@
 
 + (XYZPerson*) person;
 
+
+- (void) measureHeight;
+- (void) measureWeight;
+
+@end
+
+
+//section4.1 Add a category to the XYZPerson class to declare and implement additional behavior, such as displaying a person’s name in different ways.
+@interface XYZPerson (something)
+- (void) doAnotherThing;
+
+@end
+
+
+@interface NSString (XYZupper)
+- (void) XYZupper:(NSString*) data;
 @end
